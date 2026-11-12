@@ -49,3 +49,4 @@ internal class Program
     private static void Line() => Console.WriteLine(new string('*', 76));
     private static void Row(string text) => Console.WriteLine("* " + text.PadRight(72) + " *");
 }
+
