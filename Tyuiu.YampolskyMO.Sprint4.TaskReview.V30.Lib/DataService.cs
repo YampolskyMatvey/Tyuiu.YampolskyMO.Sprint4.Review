@@ -2,7 +2,6 @@ namespace Tyuiu.YampolskyMO.Sprint4.TaskReview.V30.Lib;
 
 public class DataService
 {
-    // Заполнение матрицы по строкам слева направо.
     public int[,] GetMatrix(string value, int rows, int columns)
     {
         ArgumentNullException.ThrowIfNull(value);
@@ -33,4 +32,3 @@ public class DataService
         return product;
     }
 }
-
